@@ -1,3 +1,4 @@
+require_relative "config/environment.rb"
 require 'sinatra'
 
 class App < Sinatra::Base
@@ -8,4 +9,4 @@ class App < Sinatra::Base
   
 end
 
-run App
+run ApplicationController
